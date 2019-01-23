@@ -1,0 +1,128 @@
+body{
+    margin: 0; 
+ }
+ 
+ h1{
+     font-family: 'Georgia', Times, Times New Roman, serif;
+ }
+ 
+ .background{
+     z-index: -1;
+     position: absolute;
+     margin: 0;
+     overflow: none;
+     width: 100%;
+ }
+ 
+ h1.myname{
+     background-color: #4aaaa5;
+     color: white;
+     text-align: center;
+     width: 100%;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     margin: 0;
+     
+ }
+ 
+ h1.aboutme{
+     color: #4aaaa5;
+ 
+ }
+ .portfolio-img{
+     width: 300px;
+     float: left;
+     margin-right: 20px;
+     margin-left: 20px;
+ }
+ 
+ .clearfix::after{
+     content: "";
+     clear: both;
+ }
+ 
+ .footer{
+     width: 100%;
+     height: 5%;
+     z-index: 1;
+     background-color: #666666;
+     padding-top: 25;
+     padding-bottom: 25;
+     margin-bottom: 0;
+     text-align: center;
+     position: fixed;
+     bottom: 0;
+     left: 0;
+     border-top: #4aaaa5 solid 8px;
+ }
+ 
+ .content{
+     width: 100%;
+     height: 100%;
+     background-color: white;
+     margin-top: 20px;
+     margin-left: 10px;
+     position: relative;
+     padding: 20px 15px;
+ }
+ 
+ .nav{
+     right: 0;
+     /*position: relative;
+     width: 100%;
+     position: absolute;*/
+     top: 4px;
+
+ }
+
+ .container{
+     margin: 0;
+ }
+
+
+ 
+ .title-hr{
+     margin: .5rem;
+ }
+ 
+ #submit{
+     background-color: #4aaaa5;
+     color: white;
+     border: none;
+     padding: 5px;
+ }
+ 
+ #submit:hover{
+     background-color:#3a6eaa;
+ }
+ 
+ .col img{
+     width: 200px;
+     position: relative;
+     margin-bottom: 1rem;
+     margin-left: 25%;
+ }
+ 
+ .discription{
+     position:absolute;
+     width: 200px;
+     bottom: 0;
+     left: auto;
+     margin-left: 109px;
+     margin-bottom: .5rem;
+     color: white;
+     background-color: #4aaaa5;
+     padding: 0px;
+     text-align: center;
+ }
+
+.card-body{
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    
+}
+
+.card-body h5{
+    font-size: 2rem;
+}
