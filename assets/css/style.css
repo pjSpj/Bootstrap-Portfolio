@@ -75,6 +75,10 @@ body{
 
  }
 
+ .nav-link{
+     padding: 0.5rem
+ }
+
  .container{
      margin: 0;
  }
